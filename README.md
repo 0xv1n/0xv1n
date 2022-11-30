@@ -4,7 +4,7 @@
 
 **What I do:**
 
-- Currently working as a Detection Engineer, with a background in analysis and threat hunting.
+- Current Role: **Detection Engineer**, with a background in security analysis and threat hunting.
 
 **Languages:**
 

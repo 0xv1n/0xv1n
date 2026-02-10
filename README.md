@@ -3,6 +3,7 @@
 <img width="100%" src="./banner.svg"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Iosevka&weight=500&size=17&pause=1000&color=E9436F&center=true&vCenter=true&width=500&lines=Detection+Engineer;Threat+Hunter;Security+Researcher;Red+Team+%2B+Blue+Team+Practitioner;CTF+%26+Malware+Analysis)](https://git.io/typing-svg)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=0xv1n&color=E9436F&style=flat-square&label=profile+views)
 
 </div>

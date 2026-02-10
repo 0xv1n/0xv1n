@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200">
+  <defs>
+    <style>
+      .title {
+        animation: fadeIn 1s ease 0.2s both;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+    </style>
+
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%">
+        <animate attributeName="stop-color"
+          values="#16161C;#2E303E;#6C6F93;#232530;#16161C"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="40%">
+        <animate attributeName="stop-color"
+          values="#2E303E;#6C6F93;#232530;#16161C;#2E303E"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color"
+          values="#6C6F93;#1A1C23;#16161C;#2E303E;#6C6F93"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <clipPath id="wave">
+      <path d="M0,0 L0,148 Q225,193 450,148 Q675,103 900,148 L900,0 Z"/>
+    </clipPath>
+
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="rgba(0,0,0,0.4)"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="200" fill="url(#grad)" clip-path="url(#wave)"/>
+
+  <text
+    class="title"
+    x="450" y="88"
+    font-family="'Courier New', Courier, monospace"
+    font-size="76"
+    fill="#E9436F"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    filter="url(#shadow)">
+    v1n
+  </text>
+</svg>

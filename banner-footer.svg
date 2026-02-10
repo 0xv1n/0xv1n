@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100">
+  <defs>
+    <linearGradient id="grad-f" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%">
+        <animate attributeName="stop-color"
+          values="#6C6F93;#232530;#16161C;#2E303E;#6C6F93"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="40%">
+        <animate attributeName="stop-color"
+          values="#232530;#16161C;#2E303E;#6C6F93;#232530"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color"
+          values="#16161C;#2E303E;#6C6F93;#1A1C23;#16161C"
+          dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <clipPath id="wave-f">
+      <path d="M0,52 Q225,8 450,52 Q675,96 900,52 L900,100 L0,100 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="100" fill="url(#grad-f)" clip-path="url(#wave-f)"/>
+</svg>

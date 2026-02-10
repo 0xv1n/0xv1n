@@ -50,11 +50,6 @@ Site  ──  https://v1n.sh
 ## `$ cat stats.out`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=0xv1n&show_icons=true&bg_color=1C1E26&border_color=E9436F&title_color=E9436F&icon_color=E9436F&text_color=6C6F93&hide_border=false" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xv1n&layout=compact&bg_color=1C1E26&border_color=E9436F&title_color=E9436F&text_color=6C6F93" height="160"/>
-</div>
-
-<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=0xv1n&theme=dark&background=1C1E26&border=E9436F&ring=E9436F&fire=E9436F&currStreakLabel=E9436F&sideNums=6C6F93&currStreakNum=E9436F&sideLabels=6C6F93&dates=2E303E"/>
 </div>
 
